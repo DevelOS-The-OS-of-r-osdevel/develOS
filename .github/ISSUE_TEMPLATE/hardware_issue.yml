@@ -1,0 +1,17 @@
+name: Hardware issue
+description: Report a problem that appears to be hardware-specific
+title: "[Hardware]: "
+body:
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Include the relevant CPU, motherboard, controller, or device information.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
