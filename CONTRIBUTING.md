@@ -22,3 +22,6 @@ Use a short name that describes the change:
 ## Pull requests
 
 Please keep pull requests focused on one change when possible. Explain what changed, why it changed, and how it was tested.
+## Development
+
+develOS is developed through pull requests so changes can be reviewed before they become part of the stable project.
