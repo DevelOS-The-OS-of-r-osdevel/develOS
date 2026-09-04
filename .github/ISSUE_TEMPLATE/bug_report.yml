@@ -1,0 +1,59 @@
+name: Bug Report
+description: Report a reproducible problem in develOS.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve develOS.
+
+        Please search existing issues before creating a new one.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+      placeholder: Tell us what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: Give the steps needed to reproduce the problem.
+      placeholder: |
+        1. Boot develOS
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: Which commit were you using?
+      placeholder: "Example: 3202268"
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant hardware, emulator, and host OS information.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Include relevant logs.
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Anything else that may help?
